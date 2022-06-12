@@ -1,0 +1,48 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ordesignerObjectsDiagram dslVersion="1.0.0.0" absoluteBounds="0, 0, 14.125, 8.75" name="db">
+  <DataContextMoniker Name="/dbDataContext" />
+  <nestedChildShapes>
+    <classShape Id="52f0a6ca-a423-462b-8d47-6f3fa81af576" absoluteBounds="2.625, 0.5, 2, 5.8092268880208326">
+      <DataClassMoniker Name="/dbDataContext/DIMER_TBL_NAKITAKIS_NEW" />
+      <nestedChildShapes>
+        <elementListCompartment Id="4242dd20-a06f-4a00-8022-24103431df12" absoluteBounds="2.64, 0.96, 1.9700000000000002, 5.249226888020833" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="4feb56b1-f3d6-44f1-a97e-e3eebb3b2a97" absoluteBounds="4.75, 0.5, 2, 7.9245426432291648">
+      <DataClassMoniker Name="/dbDataContext/TBLFATUEK" />
+      <nestedChildShapes>
+        <elementListCompartment Id="c5e94278-511d-4833-871c-f2d08fd9d722" absoluteBounds="4.765, 0.96, 1.9700000000000002, 7.3645426432291661" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="75fc8691-d650-4aa0-a748-7a9598ecaf44" absoluteBounds="0.5, 0.5, 2, 3.6939111328124996">
+      <DataClassMoniker Name="/dbDataContext/DIM_NDI_EXIMBANK" />
+      <nestedChildShapes>
+        <elementListCompartment Id="24d114c1-5fc9-4240-8f93-e5cbfecbfe43" absoluteBounds="0.51500000000000012, 0.96, 1.9700000000000002, 3.1339111328125" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="5e044f34-0d01-4af6-b177-4e7bc5d82c13" absoluteBounds="11.875, 1.125, 2, 1.3862939453125">
+      <DataClassMoniker Name="/dbDataContext/TBL_CHD_FINANS_CARI_KARSILASTIRMA" />
+      <nestedChildShapes>
+        <elementListCompartment Id="5e024d46-ca56-4843-b8b1-2803e766daed" absoluteBounds="11.89, 1.585, 1.9700000000000002, 0.8262939453125" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="0b894fda-a42f-40c4-9b41-6fa41c27b299" absoluteBounds="9.5, 1.375, 2, 2.7324039713541666">
+      <DataClassMoniker Name="/dbDataContext/_VW_CHD_CARI_KARSILASTIRMA" />
+      <nestedChildShapes>
+        <elementListCompartment Id="b38ce399-bb2e-4618-b736-9fd4672dcfb5" absoluteBounds="9.515, 1.835, 1.9700000000000002, 2.1724039713541665" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="f9041082-9d42-4440-aa72-e943c06d196f" absoluteBounds="7.375, 4.75, 2, 3.6939111328124996">
+      <DataClassMoniker Name="/dbDataContext/DIMER_TBL_GM" />
+      <nestedChildShapes>
+        <elementListCompartment Id="8b0c801e-e199-4e1e-afea-629a7fc6434d" absoluteBounds="7.3900000000000006, 5.21, 1.9700000000000002, 3.1339111328125" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="e6a26faf-8b48-4ebd-82f1-7a5064a74bdf" absoluteBounds="7.25, 1.5, 2, 1.0016910807291668">
+      <DataClassMoniker Name="/dbDataContext/TBL_CHD_FINANS_HIPOTEK" />
+      <nestedChildShapes>
+        <elementListCompartment Id="4af0dbac-3b67-4870-8d7f-41713f106d5b" absoluteBounds="7.265, 1.96, 1.9700000000000002, 0.44169108072916669" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+  </nestedChildShapes>
+</ordesignerObjectsDiagram>

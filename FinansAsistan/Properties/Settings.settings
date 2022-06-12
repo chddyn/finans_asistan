@@ -1,0 +1,38 @@
+﻿<?xml version='1.0' encoding='utf-8'?>
+<SettingsFile xmlns="http://schemas.microsoft.com/VisualStudio/2004/01/settings" CurrentProfile="(Default)" GeneratedClassNamespace="FinansAsistan.Properties" GeneratedClassName="Settings">
+  <Profiles />
+  <Settings>
+    <Setting Name="DIMER2022" Type="(Connection string)" Scope="Application">
+      <DesignTimeValue Profile="(Default)">&lt;?xml version="1.0" encoding="utf-16"?&gt;
+&lt;SerializableConnectionString xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"&gt;
+  &lt;ConnectionString&gt;Data Source=DMRSQL\DATASRV;Initial Catalog=DIMER2022;Persist Security Info=True;User ID=RAPORLAMA;Password=Rapor+21?$&lt;/ConnectionString&gt;
+  &lt;ProviderName&gt;System.Data.SqlClient&lt;/ProviderName&gt;
+&lt;/SerializableConnectionString&gt;</DesignTimeValue>
+      <Value Profile="(Default)">Data Source=DMRSQL\DATASRV;Initial Catalog=DIMER2022;Persist Security Info=True;User ID=RAPORLAMA;Password=Rapor+21?$</Value>
+    </Setting>
+    <Setting Name="DIMIN2022" Type="(Connection string)" Scope="Application">
+      <DesignTimeValue Profile="(Default)">&lt;?xml version="1.0" encoding="utf-16"?&gt;
+&lt;SerializableConnectionString xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"&gt;
+  &lt;ConnectionString&gt;Data Source=192.168.1.131\DATASRV;Initial Catalog=DIMIN2022;Persist Security Info=True;User ID=RAPORLAMA;Password=Rapor+21?$&lt;/ConnectionString&gt;
+  &lt;ProviderName&gt;System.Data.SqlClient&lt;/ProviderName&gt;
+&lt;/SerializableConnectionString&gt;</DesignTimeValue>
+      <Value Profile="(Default)">Data Source=192.168.1.131\DATASRV;Initial Catalog=DIMIN2022;Persist Security Info=True;User ID=RAPORLAMA;Password=Rapor+21?$</Value>
+    </Setting>
+    <Setting Name="DMINERAL2022ConnectionString" Type="(Connection string)" Scope="Application">
+      <DesignTimeValue Profile="(Default)">&lt;?xml version="1.0" encoding="utf-16"?&gt;
+&lt;SerializableConnectionString xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"&gt;
+  &lt;ConnectionString&gt;Data Source=192.168.1.131\DATASRV;Initial Catalog=DMINERAL2022;Persist Security Info=True;User ID=RAPORLAMA;Password=Rapor+21?$&lt;/ConnectionString&gt;
+  &lt;ProviderName&gt;System.Data.SqlClient&lt;/ProviderName&gt;
+&lt;/SerializableConnectionString&gt;</DesignTimeValue>
+      <Value Profile="(Default)">Data Source=192.168.1.131\DATASRV;Initial Catalog=DMINERAL2022;Persist Security Info=True;User ID=RAPORLAMA;Password=Rapor+21?$</Value>
+    </Setting>
+    <Setting Name="DIMER2022ConnectionString" Type="(Connection string)" Scope="Application">
+      <DesignTimeValue Profile="(Default)">&lt;?xml version="1.0" encoding="utf-16"?&gt;
+&lt;SerializableConnectionString xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"&gt;
+  &lt;ConnectionString&gt;Data Source=192.168.1.131\DATASRV;Initial Catalog=DIMER2022;Persist Security Info=True;User ID=RAPORLAMA;Password=Rapor+21?$&lt;/ConnectionString&gt;
+  &lt;ProviderName&gt;System.Data.SqlClient&lt;/ProviderName&gt;
+&lt;/SerializableConnectionString&gt;</DesignTimeValue>
+      <Value Profile="(Default)">Data Source=192.168.1.131\DATASRV;Initial Catalog=DIMER2022;Persist Security Info=True;User ID=RAPORLAMA;Password=Rapor+21?$</Value>
+    </Setting>
+  </Settings>
+</SettingsFile>

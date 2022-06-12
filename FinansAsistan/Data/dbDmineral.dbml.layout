@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ordesignerObjectsDiagram dslVersion="1.0.0.0" absoluteBounds="0, 0, 11, 8.625" name="dbDmineral">
+  <DataContextMoniker Name="/dbDmineralDataContext" />
+  <nestedChildShapes>
+    <classShape Id="8750c23f-bdd4-40c9-ae5c-b959f00f101e" absoluteBounds="3.75, 0.5, 2, 5.8092268880208326">
+      <DataClassMoniker Name="/dbDmineralDataContext/DIMER_TBL_NAKITAKIS_NEW" />
+      <nestedChildShapes>
+        <elementListCompartment Id="c73d1f3d-5d54-4c07-92c3-0801b3b039bf" absoluteBounds="3.7649999999999997, 0.96, 1.9700000000000002, 5.249226888020833" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="3bb0715e-aafc-4707-99bb-82755d27b952" absoluteBounds="1.375, 0.5, 2, 3.6939111328124996">
+      <DataClassMoniker Name="/dbDmineralDataContext/DIM_NDI_EXIMBANK" />
+      <nestedChildShapes>
+        <elementListCompartment Id="12f2ee6f-d7bd-4bb6-a8aa-f7ab8fa08c22" absoluteBounds="1.3900000000000001, 0.96, 1.9700000000000002, 3.1339111328125" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="fb1e0450-cba5-49ad-b6ee-bdcbdb3abad9" absoluteBounds="6, 0.5, 2, 7.9245426432291648">
+      <DataClassMoniker Name="/dbDmineralDataContext/TBLFATUEK" />
+      <nestedChildShapes>
+        <elementListCompartment Id="fddd3d59-c3f7-4740-a32d-c388485403de" absoluteBounds="6.015, 0.96, 1.9700000000000002, 7.3645426432291661" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+  </nestedChildShapes>
+</ordesignerObjectsDiagram>

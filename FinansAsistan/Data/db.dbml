@@ -1,0 +1,138 @@
+﻿<?xml version="1.0" encoding="utf-8"?><Database Name="DIMER2022" Class="dbDataContext" xmlns="http://schemas.microsoft.com/linqtosql/dbml/2007">
+  <Connection Mode="AppSettings" ConnectionString="Data Source=192.168.1.131\DATASRV;Initial Catalog=DIMER2022;Persist Security Info=True;User ID=RAPORLAMA" SettingsObjectName="FinansAsistan.Properties.Settings" SettingsPropertyName="DIMER2022ConnectionString" Provider="System.Data.SqlClient" />
+  <Table Name="dbo.DIMER_TBL_NAKITAKIS_NEW" Member="DIMER_TBL_NAKITAKIS_NEWs">
+    <Type Name="DIMER_TBL_NAKITAKIS_NEW">
+      <Column Name="KALEM" Type="System.String" DbType="VarChar(255)" CanBeNull="true" />
+      <Column Name="P_1" Type="System.Double" DbType="Float" CanBeNull="true" />
+      <Column Name="P_2" Type="System.Double" DbType="Float" CanBeNull="true" />
+      <Column Name="P_3" Type="System.Double" DbType="Float" CanBeNull="true" />
+      <Column Name="P_4" Type="System.Double" DbType="Float" CanBeNull="true" />
+      <Column Name="P_5" Type="System.Double" DbType="Float" CanBeNull="true" />
+      <Column Name="P_6" Type="System.Double" DbType="Float" CanBeNull="true" />
+      <Column Name="P_7" Type="System.Double" DbType="Float" CanBeNull="true" />
+      <Column Name="P_8" Type="System.Double" DbType="Float" CanBeNull="true" />
+      <Column Name="P_9" Type="System.Double" DbType="Float" CanBeNull="true" />
+      <Column Name="P_10" Type="System.Double" DbType="Float" CanBeNull="true" />
+      <Column Name="P_11" Type="System.Double" DbType="Float" CanBeNull="true" />
+      <Column Name="P_12" Type="System.Double" DbType="Float" CanBeNull="true" />
+      <Column Name="G_1" Type="System.Double" DbType="Float" CanBeNull="true" />
+      <Column Name="G_2" Type="System.Double" DbType="Float" CanBeNull="true" />
+      <Column Name="G_3" Type="System.Double" DbType="Float" CanBeNull="true" />
+      <Column Name="G_4" Type="System.Double" DbType="Float" CanBeNull="true" />
+      <Column Name="G_5" Type="System.Double" DbType="Float" CanBeNull="true" />
+      <Column Name="G_6" Type="System.Double" DbType="Float" CanBeNull="true" />
+      <Column Name="G_7" Type="System.Double" DbType="Float" CanBeNull="true" />
+      <Column Name="G_8" Type="System.Double" DbType="Float" CanBeNull="true" />
+      <Column Name="G_9" Type="System.Double" DbType="Float" CanBeNull="true" />
+      <Column Name="G_10" Type="System.Double" DbType="Float" CanBeNull="true" />
+      <Column Name="G_11" Type="System.Double" DbType="Float" CanBeNull="true" />
+      <Column Name="G_12" Type="System.Double" DbType="Float" CanBeNull="true" />
+      <Column Name="ID" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+    </Type>
+  </Table>
+  <Table Name="dbo.TBLFATUEK" Member="TBLFATUEKs">
+    <Type Name="TBLFATUEK">
+      <Column Name="SUBE_KODU" Type="System.Int16" DbType="SmallInt NOT NULL" CanBeNull="false" />
+      <Column Name="FKOD" Type="System.Char" DbType="Char(1) NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="FATIRSNO" Type="System.String" DbType="VarChar(15) NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="CKOD" Type="System.String" DbType="VarChar(15) NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="ACIK1" Type="System.String" DbType="VarChar(100)" CanBeNull="true" />
+      <Column Name="ACIK2" Type="System.String" DbType="VarChar(100)" CanBeNull="true" />
+      <Column Name="ACIK3" Type="System.String" DbType="VarChar(100)" CanBeNull="true" />
+      <Column Name="ACIK4" Type="System.String" DbType="VarChar(100)" CanBeNull="true" />
+      <Column Name="ACIK5" Type="System.String" DbType="VarChar(100)" CanBeNull="true" />
+      <Column Name="ACIK6" Type="System.String" DbType="VarChar(100)" CanBeNull="true" />
+      <Column Name="ACIK7" Type="System.String" DbType="VarChar(100)" CanBeNull="true" />
+      <Column Name="ACIK8" Type="System.String" DbType="VarChar(100)" CanBeNull="true" />
+      <Column Name="ACIK9" Type="System.String" DbType="VarChar(100)" CanBeNull="true" />
+      <Column Name="ACIK10" Type="System.String" DbType="VarChar(100)" CanBeNull="true" />
+      <Column Name="ACIK11" Type="System.String" DbType="VarChar(100)" CanBeNull="true" />
+      <Column Name="ACIK12" Type="System.String" DbType="VarChar(100)" CanBeNull="true" />
+      <Column Name="ACIK13" Type="System.String" DbType="VarChar(100)" CanBeNull="true" />
+      <Column Name="ACIK14" Type="System.String" DbType="VarChar(100)" CanBeNull="true" />
+      <Column Name="ACIK15" Type="System.String" DbType="VarChar(100)" CanBeNull="true" />
+      <Column Name="ACIK16" Type="System.String" DbType="VarChar(100)" CanBeNull="true" />
+      <Column Name="S_YEDEK1" Type="System.String" DbType="VarChar(8)" CanBeNull="true" />
+      <Column Name="S_YEDEK2" Type="System.String" DbType="VarChar(8)" CanBeNull="true" />
+      <Column Name="S_YEDEK3" Type="System.String" DbType="VarChar(8)" CanBeNull="true" />
+      <Column Name="S_YEDEK4" Type="System.String" DbType="VarChar(8)" CanBeNull="true" />
+      <Column Name="F_YEDEK5" Type="System.Decimal" DbType="Decimal(28,8)" CanBeNull="true" />
+      <Column Name="F_YEDEK6" Type="System.Decimal" DbType="Decimal(28,8)" CanBeNull="true" />
+      <Column Name="F_YEDEK7" Type="System.Decimal" DbType="Decimal(28,8)" CanBeNull="true" />
+      <Column Name="F_YEDEK8" Type="System.Decimal" DbType="Decimal(28,8)" CanBeNull="true" />
+      <Column Name="I_YEDEK9" Type="System.Int16" DbType="SmallInt" CanBeNull="true" />
+      <Column Name="I_YEDEK10" Type="System.Int16" DbType="SmallInt" CanBeNull="true" />
+      <Column Name="G_YEDEK11" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="OKCSERINO" Type="System.String" DbType="VarChar(25)" CanBeNull="true" />
+      <Column Name="ZRAPORNO" Type="System.String" DbType="VarChar(25)" CanBeNull="true" />
+      <Column Name="OKCTARIH" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Column Name="OKCFISNO" Type="System.String" DbType="VarChar(25)" CanBeNull="true" />
+      <Column Name="OKCFISTIP" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="PROFILEID" Type="System.Int16" DbType="SmallInt" CanBeNull="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.DIM_NDI_EXIMBANK" Member="DIM_NDI_EXIMBANKs">
+    <Type Name="DIM_NDI_EXIMBANK">
+      <Column Name="TARIH" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Column Name="BELGENO" Type="System.String" DbType="VarChar(15)" CanBeNull="true" />
+      <Column Name="BANKA_NO" Type="System.String" DbType="VarChar(15)" CanBeNull="true" />
+      <Column Name="ACIKLAMA" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="VADE_TARIHI" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Column Name="BA" Type="System.Char" DbType="Char(1)" CanBeNull="true" />
+      <Column Name="TUTAR" Type="System.Decimal" DbType="Decimal(28,8)" CanBeNull="true" />
+      <Column Name="DOVTIP" Type="System.Byte" DbType="TinyInt" CanBeNull="true" />
+      <Column Name="DOVIZTUT" Type="System.Decimal" DbType="Decimal(28,8)" CanBeNull="true" />
+      <Column Name="FAIZ_ORANI" Type="System.Decimal" DbType="Decimal(28,8)" CanBeNull="true" />
+      <Column Name="D_KUR" Type="System.Decimal" DbType="Decimal(28,8)" CanBeNull="true" />
+      <Column Name="DURUM" Type="System.Char" DbType="Char(1)" CanBeNull="true" />
+      <Column Name="ONAYTIPI" Type="System.Char" DbType="Char(1)" CanBeNull="true" />
+      <Column Name="ONAYNUM" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="ID" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+    </Type>
+  </Table>
+  <Table Name="dbo.TBL_CHD_FINANS_CARI_KARSILASTIRMA" Member="TBL_CHD_FINANS_CARI_KARSILASTIRMAs">
+    <Type Name="TBL_CHD_FINANS_CARI_KARSILASTIRMA">
+      <Column Name="ID" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="CARI_KOD" Type="System.String" DbType="VarChar(15)" CanBeNull="true" />
+      <Column Name="ACIKLAMA" Type="System.String" DbType="NVarChar(MAX)" CanBeNull="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.[_VW_CHD_CARI_KARSILASTIRMA]" Member="_VW_CHD_CARI_KARSILASTIRMAs">
+    <Type Name="_VW_CHD_CARI_KARSILASTIRMA">
+      <Column Name="CARI_KOD" Type="System.String" DbType="VarChar(15) NOT NULL" CanBeNull="false" />
+      <Column Name="Cari_Isim" Type="System.String" DbType="VarChar(100)" CanBeNull="true" />
+      <Column Name="BORC" Type="System.Decimal" DbType="Decimal(28,8)" CanBeNull="true" />
+      <Column Name="ALACAK" Type="System.Decimal" DbType="Decimal(28,8)" CanBeNull="true" />
+      <Column Name="BAKIYE" Type="System.Decimal" DbType="Decimal(38,8)" CanBeNull="true" />
+      <Column Name="MUHASEBE_BORC" Type="System.Decimal" DbType="Decimal(38,8)" CanBeNull="true" />
+      <Column Name="MUHASEBE_ALACAK" Type="System.Decimal" DbType="Decimal(38,8)" CanBeNull="true" />
+      <Column Name="ID" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="KARSILASTIRMA_CARIKOD" Type="System.String" DbType="VarChar(15)" CanBeNull="true" />
+      <Column Name="ACIKLAMA" Type="System.String" DbType="NVarChar(MAX)" CanBeNull="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.DIMER_TBL_GM" Member="DIMER_TBL_GMs">
+    <Type Name="DIMER_TBL_GM">
+      <Column Name="CINSI" Type="System.String" DbType="VarChar(255)" CanBeNull="true" />
+      <Column Name="SIRANO" Type="System.String" DbType="VarChar(50) NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="TAPUADI" Type="System.String" DbType="VarChar(255)" CanBeNull="true" />
+      <Column Name="BELEDIYESI" Type="System.String" DbType="VarChar(255)" CanBeNull="true" />
+      <Column Name="ADRESI" Type="System.String" DbType="VarChar(255)" CanBeNull="true" />
+      <Column Name="DURUMU" Type="System.String" DbType="VarChar(255)" CanBeNull="true" />
+      <Column Name="ACIKLAMA" Type="System.String" DbType="VarChar(255)" CanBeNull="true" />
+      <Column Name="DOSYA" Type="System.Data.Linq.Binary" DbType="Image" CanBeNull="true" UpdateCheck="Never" />
+      <Column Name="ONAYTIPI" Type="System.String" DbType="NChar(10)" CanBeNull="true" />
+      <Column Name="ONAYNUM" Type="System.String" DbType="NChar(10)" CanBeNull="true" />
+      <Column Name="ALINANYER" Type="System.String" DbType="VarChar(255)" CanBeNull="true" />
+      <Column Name="ALIMBEDELI" Type="System.Double" DbType="Float" CanBeNull="true" />
+      <Column Name="PIYASADEGERI" Type="System.Double" DbType="Float" CanBeNull="true" />
+      <Column Name="SATILANYER" Type="System.String" DbType="VarChar(255)" CanBeNull="true" />
+      <Column Name="SATISBEDELI" Type="System.Double" DbType="Float" CanBeNull="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.TBL_CHD_FINANS_HIPOTEK" Member="TBL_CHD_FINANS_HIPOTEKs">
+    <Type Name="TBL_CHD_FINANS_HIPOTEK">
+      <Column Name="ID" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+    </Type>
+  </Table>
+</Database>
